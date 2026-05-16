@@ -39,7 +39,7 @@ class TokenUsage:
 
         if self.context_utilization_pct > threshold:
             raise ContextWindowWarning(
-                f"⚠️ Using {self.context_utilization_pct:.0%} "
+                f" Using {self.context_utilization_pct:.0%} "
                 f"of context window"
             )
 
