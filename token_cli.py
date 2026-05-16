@@ -137,10 +137,6 @@ def main():
         response_size=response_size
     )
 
-    # print("\n====================================")
-    # print("             RESULTS")
-    # print("====================================\n")
-
     print(f"Model: {usage.model}")
 
     print(f"Input Tokens: {usage.input_tokens}")
