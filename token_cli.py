@@ -85,23 +85,14 @@ def estimate_tokens(
         context_utilization_pct=context_usage
     )
 
-
-
-def main():
-
-    # print("\n====================================")
-    # print("     TOKEN + COST ESTIMATOR")
-    # print("====================================\n")
-
-    
+# Main Function -->
+def main():    
     print("Available Models:")
 
     for model in PRICING.keys():
         print(f" - {model}")
 
-    
     prompt = input("\nEnter your prompt:\n> ")
-
     
     model = input(
         "\nChoose model:\n"
